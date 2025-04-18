@@ -477,7 +477,7 @@ html, body{
 
     /* homepage */
     .homepage, .about{
-      min-height: 50vh;
+      min-height: 60vh;
     }
     .home-content{
       padding-left: 20px;
