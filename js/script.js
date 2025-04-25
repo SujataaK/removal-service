@@ -5,7 +5,7 @@ function toggleMenu() {
   navLinks.classList.toggle('active');
 }
 
-// carousoul for testimonial slides
+
 document.addEventListener("DOMContentLoaded", function () {
     let slideIndex = 0;
     const slides = document.querySelectorAll(".testimonial-slide");
