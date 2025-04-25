@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- css link -->
+     <link rel="stylesheet" href="../css/styles.css">
+    
+    <!-- font awesome cdn -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+
+    <title>Our Services</title>
+</head>
+<body>
+    <div class="top-header">
+        <div class="logo" id="logo">
+            <img src="../assets/logo.png" alt="">
+        </div>
+    
+        <div class="contact-header">
+            <a href="mailto: mycompany@gmail.com"  style="color: black;"><i class="fa-regular fa-envelope"></i> Email: mycompany@gmail.com</a>
+            <a href="tel:9712345678" style="color: black;"><i class="fa-solid fa-phone-volume"></i> 9712345678</a>
+            <a href="https://maps.app.goo.gl/UH5EJiPT2qJ2UPwi8" style="color: black;" target="_blank">  <i class="fa-solid fa-location-dot"></i> Narayangarh, Chitwan</a>
+        </div>
+    
+        <div>
+            <button class="quote-btn">Get a Quote</button>
+        </div>
+    </div>
+
+    
+    <nav class="navbar">
+        <ul class="nav-links" id="navLinks">
+            <li><a href="../pages/index.html">Home</a></li>
+            <div style="border-left:1px solid  #F2F0EF;height:30px"></div>
+
+            <li><a href="../pages/about.html">About Us</a></li>
+            <div style="border-left:1px solid  #F2F0EF;height:30px"></div>
+
+            <li><a href="../pages/services.html">Services</a></li>
+            <div style="border-left:1px solid  #F2F0EF;height:30px"></div>
+
+            <li><a href="../pages/gallery.html">Gallery</a></li>
+            <div style="border-left:1px solid  #F2F0EF;height:30px"></div>
+
+            <li><a href="../pages/testimonial.html">Testimonials</a></li>
+            <div style="border-left:1px solid  #F2F0EF;height:30px"></div>
+
+            <li><a href="../pages/contact.html">Contact Us</a></li>
+        </ul>
+        <div id="menu-bar" onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></div>
+    </nav>
+
+    <section class="testimonial">
+        <div class="testimonial-slide active" style="background-image: url('../assets/gallery-1.jpg'); ">
+          <div class="testimonial-content">
+            <h2>Testimonials</h2>
+            <p>I just wanted to let you know that we think you have done a fantastic job. It looks great. You are very professional in your work and very affordable too, which is a bonus.</p>
+            <h4>James Wilson</h4>
+          </div>
+        </div>
+      
+        <div class="testimonial-slide" style="background-image: url('../assets/gallery-4.jpg');">
+          <div class="testimonial-content">
+            <h2>Testimonials</h2>
+            <p>Thanks for the amazing service. Your team was polite, on time, and completed everything as promised. Definitely recommending you to others.</p>
+            <h4>Sarah Johnson</h4>
+          </div>
+        </div>
+      
+        <div class="testimonial-slide" style="background-image: url('../assets/gallery-3.jpg');">
+          <div class="testimonial-content">
+            <h2>Testimonials</h2>
+            <p>Super happy with the results. Great value for money and very responsive team. Keep up the good work!</p>
+            <h4>Michael Lee</h4>
+          </div>
+        </div>
+         <!-- Arrows -->
+         <button class="arrow left-arrow">&#10094;</button>
+        <button class="arrow right-arrow">&#10095;</button>
+      </section>
+   
+
+    <footer class="footer">
+        <div class="footer-content">
+            <h1>Contact Us</h1>
+            <li><a href="mailto: mycompany@gmail.com"><i class="fa-regular fa-envelope"></i>  Email: mycompany@gmail.com</a></li> 
+            <li><a href="tel:9712345678"><i class="fa-solid fa-phone-volume"></i>  9712345678</a></li>
+            <li><a href="https://maps.app.goo.gl/UH5EJiPT2qJ2UPwi8" target="_blank">  <i class="fa-solid fa-location-dot"></i>  Narayangarh, Chitwan</a></li>
+        </div>
+
+        <div class="footer-content">
+            <h1>Quick Links</h1>
+            <ul class="footer-links">
+                <li><a href="../pages/index.html">Home</a></li>
+                <li><a href="../pages/about.html">About Us</a></li>
+                <li><a href="../pages/services.html">Services</a></li>
+                <li><a href="../pages/gallery.html">Gallery</a></li>
+                <li><a href="../pages/testimonial.html">Testimonials</a></li>
+                <li><a href="../pages/contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-content">
+            <h1>About Us</h1>
+            <p class="footer-para">KMD Demolition & Asbestos Removal has a team dedicated to the safe removal and replacement of roofs containing asbestos.
+            We use environmentally safe disposal methods for hazardous materials.</p>
+            <p>5 Years <br><span>Experience</span></p>
+        </div>
+      </footer>
+      <div class="credits">
+        <h5>Copyrights © 2025 - Demolition and Asbestos Removal. All Rights Reserved. Designed By: Sujata</h5>
+      </div>
+
+    <script src="../js/script.js"></script>
+    
+</body>
+</html>
